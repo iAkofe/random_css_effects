@@ -86,7 +86,7 @@ body {
 }
 .card .content a {
     padding: 10px 20px;
-    background: #ccc;
+    background: #fff;
     color:#0865A2;
     font-size: 1rem;
     text-decoration: none;
@@ -94,8 +94,9 @@ body {
     transition: .5s ease;
 }
 .card:hover .content a:hover {
-    transform: scale(1.18);
-    z-index: 1000;
+    background: transparent;
+    color: #fff;
+    border: 2px solid #fff;
 }
 @media (max-width: 700px) {
     .card {
